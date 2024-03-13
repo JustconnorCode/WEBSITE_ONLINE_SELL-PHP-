@@ -1,0 +1,386 @@
+/* Header */
+/* Menu */
+.menu {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 500;
+}
+
+/* hover
+menu */
+.menu:hover {
+    background-color: black;
+}
+
+/* auto dropdown khi trỏ chuột vào */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Chữ việt nam  */
+.vn {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    margin: 80px 0px -25px 45px;
+    padding: 20px;
+    color: white;
+}
+
+/* slogan */
+.slogan {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 800;
+    text-align: justify;
+    font-style: italic;
+    margin-bottom: 40px;
+    padding: 30px;
+    margin-top: 0px;
+    border-radius: 50px;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+/* home */
+/* Phân lại món ăn */
+.tenta {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 90px 0px 30px 50px;
+    float: left;
+}
+
+.tenta1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    float: right;
+    margin: 90px 50px 30px 0px;
+    color: white;
+}
+
+/* Mô tả món ăn chính */
+.motata {
+    margin: 0px 100px 30px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.motata1 {
+    margin: 0px 100px 30px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 500;
+    text-align: justify;
+    color: white;
+}
+
+/* Đường dẫn xem thêm  */
+.xemthem {
+    float: right;
+    margin: 0px 70px 30px 0px;
+    color: #333333;
+}
+
+/* hover xem thêm */
+.xemthem:hover {
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.xemthem1 {
+    float: left;
+    margin: 0px 0px 30px 70px;
+    color: #F0F8FF;
+}
+
+.xemthem1:hover {
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.motatact {
+    margin: 0px 10px 0px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.motatact1 {
+    margin: 0px 10px 0px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 500;
+    text-align: justify;
+    color: white;
+}
+
+.giata {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.screen {
+    background: linear-gradient(90deg, #5D54A4, #7C78B8);
+    position: relative;
+    height: 600px;
+    width: 360px;
+    box-shadow: 0px 0px 24px #5C5696;
+}
+
+.screen__content {
+    z-index: 1;
+    position: relative;
+    height: 100%;
+}
+
+.screen__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    -webkit-clip-path: inset(0 0 0 0);
+    clip-path: inset(0 0 0 0);
+}
+
+.screen__background__shape {
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+.screen__background__shape1 {
+    height: 520px;
+    width: 520px;
+    background: #FFF;
+    top: -50px;
+    right: 120px;
+    border-radius: 0 72px 0 0;
+}
+
+.screen__background__shape2 {
+    height: 220px;
+    width: 220px;
+    background: #6C63AC;
+    top: -172px;
+    right: 0;
+    border-radius: 32px;
+}
+
+.screen__background__shape3 {
+    height: 540px;
+    width: 190px;
+    background: linear-gradient(270deg, #5D54A4, #6A679E);
+    top: -24px;
+    right: 0;
+    border-radius: 32px;
+}
+
+.screen__background__shape4 {
+    height: 400px;
+    width: 200px;
+    background: #7E7BB9;
+    top: 420px;
+    right: 50px;
+    border-radius: 60px;
+}
+
+.login {
+    width: 320px;
+    padding: 30px;
+    padding-top: 156px;
+}
+
+.login__field {
+    padding: 20px 0px;
+    position: relative;
+}
+
+.login__icon {
+    position: absolute;
+    top: 30px;
+    color: #7875B5;
+}
+
+.login__input {
+    border: none;
+    border-bottom: 2px solid #D1D1D4;
+    background: none;
+    padding: 10px;
+    padding-left: 24px;
+    font-weight: 700;
+    width: 75%;
+    transition: .2s;
+}
+
+.login__input:active,
+.login__input:focus,
+.login__input:hover {
+    outline: none;
+    border-bottom-color: #6A679E;
+}
+
+.login__submit {
+    background: #fff;
+    font-size: 14px;
+    margin-top: 30px;
+    padding: 16px 20px;
+    border-radius: 26px;
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: #4C489D;
+    box-shadow: 0px 2px 2px #5C5696;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.login__submit:active,
+.login__submit:focus,
+.login__submit:hover {
+    border-color: #6A679E;
+    outline: none;
+}
+
+.button__icon {
+    font-size: 24px;
+    margin-left: auto;
+    color: #7875B5;
+}
+
+.social-login {
+    position: absolute;
+    height: 140px;
+    width: 160px;
+    text-align: center;
+    bottom: 0px;
+    right: 0px;
+    color: #fff;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-login__icon {
+    padding: 20px 10px;
+    color: #fff;
+    text-decoration: none;
+    text-shadow: 0px 0px 8px #7875B5;
+}
+
+.social-login__icon:hover {
+    transform: scale(1.5);
+}
+
+/* ============================================================= */
+/* Cart */
+.carttitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    margin: 90px 0px 30px 50px;
+    text-align: center;
+}
+
+.cartmota {
+    font-size: large;
+    font-weight: 500;
+}
+
+.box {
+    background-color: white;
+    border-radius: 30px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(237, 244, 244);
+    color: black;
+    border: none;
+}
+
+/* .button1 {
+    width: 100%;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+} */
+
+.searchbar input {
+    margin-top: 20px;
+    width: 650px;
+    height: 40px;
+    border-radius: 0 20px 20px 0;
+    background-color: #0a171a;
+    color: azure;
+    padding-left: 0;
+    border: none;
+}
+
+.search-button {
+    /* width: 100%; */
+    /* margin-top: 2px; */
+    margin-bottom: 20px;
+    margin-right: -50;
+    height: 30px;
+    border-radius: 20px 0 0 20px;
+    background-color: #0a171a;
+    color: azure;
+    border: none;
+}
+
+#perloader {
+    background: #000 url(./picture/loader-2_food.gif) no-repeat center center;
+    background-size: 30%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
