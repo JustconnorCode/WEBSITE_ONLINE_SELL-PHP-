@@ -1,5 +1,5 @@
 Online sales website has full frontend and backend in php 
-User page:
+**User page:**
  + Home page
  + Searching product
  + Detail page
@@ -11,7 +11,7 @@ User page:
  + Edit/upload cart
  + Delete product in cart
  + Delele all products in cart
-Admin page
+**Admin page**
   + Watch all product
   + Create more product
   + Edit/update product
